@@ -1,0 +1,131 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="icon" href="{% static 'images/icon.jpg' %}"/>
+    <title>TEACHER EVALUATION</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+ <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+
+
+
+
+<body class="body1">
+ <!-- navbar -->
+
+        <header class="hd1">
+
+        
+            <div class="container-flex">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  scrolled" id="in-nav">
+                    <img width="50px" src="{% static 'images/icon.jpg'%}" alt="images">
+                    <a class="navbar-brand" href="#"><b><marquee>Welcome To Wisdom Elementary School Teacher Evaluation</marquee></b></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="{% url 'home' %}"><b>Home</b><span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="{% url 'about' %}"><b>About Us</b></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="{% url 'contact' %}"><b>Contact us</b></a>
+                              </li>
+                  
+                              <li class="nav-item">
+                                <a class="nav-link" href="{% url 'login' %}"><b>Login</b></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="{% url 'reg' %}"><b>Signup</b></a>
+                              </li>
+                             
+                              
+                              
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+          
+
+
+
+
+          <div class="contact-text text-white">
+            <style>
+              .hd1{
+                          background-image:url( "{% static 'images/teacher.png' %}");
+              }
+          </style>
+            <h1 class="text-center font-weight-bolder ml-5" style="color: rgb(191,49,49);"><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b>TEACHER EVALUATION</b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></h1>
+            <h2 class="text-center font-weight-bolder ml-5" style="color: rgb(0,0,97);"><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b><b>WISDOM ELEMENTARY SCHOOL</b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></h2>
+            
+        </div>
+         </header> 
+
+
+<!-- Footer -->
+<div class="footer">
+    <footer class="page-footer font-small blue-grey lighten-5 ft-1">
+      <a  style="text-align: center; color: crimson; text-decoration-color: darkgray; font-size: 150%;" href="http://127.0.0.1:8000/"> (↑)</a>
+      <div></div>
+      <div class="container text-center text-md-left mt-5">
+        <div class="row mt-4 dark-grey-text">
+          <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
+            <h6 class="text-uppercase font-weight-bold" style="color: crimson;">ABOUT US</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p style="text-align: justify; color: black;">Wisdom Elementary School is one of the famous schools in kerala.we have 3 schools and counciling centers in kerala.the schools are located in wayanad,kannur and calicut.</p>
+           </div>
+          <!-- Grid column1 -->
+          
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+    
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold" style="color: crimson;">Contact</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p style="color: black;">
+              <i class="fas fa-home mr-3"></i>WisdomElementarySchool</p>
+            <p style="color: black;">
+              <i class="fas fa-envelope mr-3"></i> WisdomElementary@School.com</p>
+            <p style="color: black;">
+              <i class="fas fa-phone mr-3"></i> +91 234 567 88</p>
+            <p style="color: black;">
+              <i class="fas fa-print mr-3"></i> +91 234 567 89</p>
+          </div>
+        </div>
+    
+      </div>
+      <!-- Footer Links -->
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-black-50 py-3">© 2021 Copyright:
+        <a  class="text-black" href="http://127.0.0.1:8000/">WisdomElementary@School.com</a>
+      </div>
+      <!-- Copyright end-->
+      <div class="container pt-2">
+        <div class="row text-center" style="font-size: 2rem;">
+        <div class="col-md-12">
+                <div class="p-3">
+                    <a href= "https://www.facebook.com/"> <i class="fab fa-facebook-square ico "></i></a>
+                    <a href="https://www.instagram.com/"> <i class="fab fa-instagram-square ico"></i></a>
+                    <a href="https://www.twitter.com/"> <i class="fab fa-twitter-square ico"></i></a>
+                    <a href="https://www.youtube.com/"> <i class="fab fa-youtube-square ico"></i></a>
+                </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <!-- Footer end --> 
+
+    <script src="https://kit.fontawesome.com/711d09c28b.js" crossorigin="anonymous"></script>
+</body>
+</html>
